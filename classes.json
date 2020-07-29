@@ -1,0 +1,83 @@
+{
+	"1": {
+		"name" : "swordsman",
+		"hp" : 150,
+		"max_hp" : 150,
+		"armor" : 0,
+		"base_attack" : 10,
+		"base_speed" : 1,
+		"starting_gear":{
+			"weapons": {
+				"iron great-sword": {
+					"attack" : 10,
+					"speed" : 1.5,
+					"value" : 50,
+					"hands" : 2,
+					"status" : "equipped"
+				},
+				"iron sword": {
+					"attack" : 10,
+					"speed" : 1.05,
+					"value" : 50,
+					"hands" : 1,
+					"status" : "unequipped"
+				}
+			},
+			"armors": {
+				"swordsman plate": {
+					"health" : 10,
+					"armor" : 20,
+					"value" : 30,
+					"status" : "equipped"
+				},
+				"heavy plate": {
+					"health" : 25,
+					"armor" : 50,
+					"value" : 100,
+					"status" : "unequipped"
+				}
+			},
+			"consumables": {
+				"health potion":{
+					"health" : 50,
+					"value" : 10
+				}
+			}
+
+		},
+
+		"description": "The swordsman is a melee character equipped with a sword and shield !"
+	},
+
+	"2": {
+		"name" : "hunter",
+		"hp" : 100,
+		"max_hp" : 100,
+		"armor" : 0,
+		"base_attack" : 15,
+		"base_speed" : 1.5,
+		"starting_gear":{
+			"weapons": {
+				"wooden bow": {
+					"attack" : 15,
+					"speed" : 1.2,
+					"value" : 50,
+					"hands" : 2,
+					"status" : "equipped"
+				}
+			},
+			"armors": {
+				"silk robe": {
+					"health" : 5,
+					"armor" : 15,
+					"value" : 35,
+					"status" : "equipped"
+				}
+			}
+
+		},
+
+		"description": "The hunter is a ranged character equipped with a bow and arrows !"
+	}
+	
+}
