@@ -1,4 +1,5 @@
 # True-RPG
 
+Python Console Game
 This repository is a WORK IN PROGRESS
-It will be a simple console game with a lot of logic behind.
+Game will play as a simple console rpg with a lot of logic behind it.
